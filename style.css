@@ -1,0 +1,106 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+html{
+    background-image:-webkit-linear-gradient(65deg, #e2dd92 50%, #f2cea4 50%);
+}
+
+.clock{
+    font-family: Orbitron;
+    font-size: 3rem;
+    margin:0.6rem;
+    color:rgb(218, 64, 64); 
+    text-shadow: 3px 4px 1px rgb(236, 149, 149);
+}
+.heading h1{
+    text-align: center;
+    padding: 0.625rem;
+    margin: 00.625rem;
+}
+
+.date h2{
+    text-align:center;
+    padding: 0.625rem;
+    margin: 0.625rem;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    margin:4rem;
+}
+
+#todo{
+    display:inline-block;
+    height:2rem;
+    width:100%;
+
+    border-style:ridge;
+    border-color: white;
+
+    box-shadow: 10px 10px 6px grey;
+
+    font-family:cursive;
+    font-size: larger;
+
+    padding:0.2rem;
+    margin:0.625rem;    
+}
+.btn{
+    display:inline-block;
+    height:2rem;
+
+    border-style:ridge;
+    border-color: white;
+
+    box-shadow: 5px 5px 2px grey;
+
+    font-family:cursive;
+    font-size: larger;
+    text-align: center;
+
+    padding:0.2rem;
+    margin:0.625rem;   
+}
+
+.list{
+    display:flex;
+    justify-content: center;
+    padding: 0.25rem;
+    margin: 0.25rem;
+}
+
+.list div{
+    word-break: break-all;
+    width:40%;
+    height:30rem;
+
+    border-style: ridge;
+    border-color:white;
+    box-shadow:10px 10px 6px black;
+    overflow-y:scroll
+}
+
+.list div p{
+    padding:0.2rem;
+    margin:0.1rem;
+}
+.list div p::before{
+    content:"• ";
+    color:"red";
+}
+
+.list div p{
+    font-size: larger;
+    font-family: cursive;
+    
+}
+
+.delete_btn{
+    float:right;
+    margin-right:2px;
+    border-style: ridge;
+    border-color: white;
+    width:4%;
+}
